@@ -10,23 +10,6 @@
 
 В перегрузку оператора `operator*` была добавлена директива OpenMP:
 
-```cpp
-Matrix operator*(const Matrix& other) const {
-    Matrix result(n);
-
-    #pragma omp parallel for
-    for (int i = 0; i < n; i++) {
-        for (int j = 0; j < n; j++) {
-            int sum = 0;
-            for (int k = 0; k < n; k++) {
-                sum += data[i * n + k] * other.data[k * n + j];
-            }
-            result.data[i * n + j] = sum;
-        }
-    }
-    return result;
-}
-
 ## График
 График показывает, как меняется время умножения матриц при увеличении их размера для разного количества потоков (1, 2, 4, 8).
 ![График](plot_time.png)
