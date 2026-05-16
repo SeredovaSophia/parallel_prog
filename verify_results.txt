@@ -1,0 +1,33 @@
+============================================================
+РЕЗУЛЬТАТЫ ВЕРИФИКАЦИИ
+Сравнение C++ (MPI) и Python (NumPy)
+============================================================
+
+200x200 | 1 processes: CORRECT
+200x200 | 2 processes: CORRECT
+200x200 | 4 processes: CORRECT
+200x200 | 8 processes: CORRECT
+400x400 | 1 processes: CORRECT
+400x400 | 2 processes: CORRECT
+400x400 | 4 processes: CORRECT
+400x400 | 8 processes: CORRECT
+800x800 | 1 processes: CORRECT
+800x800 | 2 processes: CORRECT
+800x800 | 4 processes: CORRECT
+800x800 | 8 processes: CORRECT
+1200x1200 | 1 processes: CORRECT
+1200x1200 | 2 processes: CORRECT
+1200x1200 | 4 processes: CORRECT
+1200x1200 | 8 processes: CORRECT
+1600x1600 | 1 processes: CORRECT
+1600x1600 | 2 processes: CORRECT
+1600x1600 | 4 processes: CORRECT
+1600x1600 | 8 processes: CORRECT
+2000x2000 | 1 processes: CORRECT
+2000x2000 | 2 processes: CORRECT
+2000x2000 | 4 processes: CORRECT
+2000x2000 | 8 processes: CORRECT
+
+============================================================
+ВСЕ ПРОВЕРКИ ПРОЙДЕНЫ УСПЕШНО
+============================================================
