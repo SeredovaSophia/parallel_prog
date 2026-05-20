@@ -1,0 +1,88 @@
+
+============================================================
+MPI MATRIX MULTIPLICATION WITH 1 PROCESSES
+============================================================
+
+Generating A_200 and B_200... done
+C_200_1procs.txt - 0.05845 sec
+Generating A_400 and B_400... done
+C_400_1procs.txt - 0.35425 sec
+Generating A_800 and B_800... done
+C_800_1procs.txt - 2.94452 sec
+Generating A_1200 and B_1200... done
+C_1200_1procs.txt - 10.07173 sec
+Generating A_1600 and B_1600... done
+C_1600_1procs.txt - 23.84801 sec
+Generating A_2000 and B_2000... done
+C_2000_1procs.txt - 46.75995 sec
+
+============================================================
+FINISHED WITH 1 PROCESSES
+============================================================
+
+
+============================================================
+MPI MATRIX MULTIPLICATION WITH 2 PROCESSES
+============================================================
+
+Loading A_200 and B_200... done
+C_200_2procs.txt - 0.04405 sec
+Loading A_400 and B_400... done
+C_400_2procs.txt - 0.19527 sec
+Loading A_800 and B_800... done
+C_800_2procs.txt - 1.48185 sec
+Loading A_1200 and B_1200... done
+C_1200_2procs.txt - 5.05889 sec
+Loading A_1600 and B_1600... done
+C_1600_2procs.txt - 11.97439 sec
+Loading A_2000 and B_2000... done
+C_2000_2procs.txt - 23.40801 sec
+
+============================================================
+FINISHED WITH 2 PROCESSES
+============================================================
+
+
+============================================================
+MPI MATRIX MULTIPLICATION WITH 4 PROCESSES
+============================================================
+
+Loading A_200 and B_200... done
+C_200_4procs.txt - 0.02193 sec
+Loading A_400 and B_400... done
+C_400_4procs.txt - 0.09111 sec
+Loading A_800 and B_800... done
+C_800_4procs.txt - 0.74997 sec
+Loading A_1200 and B_1200... done
+C_1200_4procs.txt - 2.53660 sec
+Loading A_1600 and B_1600... done
+C_1600_4procs.txt - 6.02534 sec
+Loading A_2000 and B_2000... done
+C_2000_4procs.txt - 11.93282 sec
+
+============================================================
+FINISHED WITH 4 PROCESSES
+============================================================
+
+
+============================================================
+MPI MATRIX MULTIPLICATION WITH 8 PROCESSES
+============================================================
+
+Loading A_200 and B_200... done
+C_200_8procs.txt - 0.01300 sec
+Loading A_400 and B_400... done
+C_400_8procs.txt - 0.04668 sec
+Loading A_800 and B_800... done
+C_800_8procs.txt - 0.37890 sec
+Loading A_1200 and B_1200... done
+C_1200_8procs.txt - 1.28516 sec
+Loading A_1600 and B_1600... done
+C_1600_8procs.txt - 3.13906 sec
+Loading A_2000 and B_2000... done
+C_2000_8procs.txt - 6.32170 sec
+
+============================================================
+FINISHED WITH 8 PROCESSES
+============================================================
+
