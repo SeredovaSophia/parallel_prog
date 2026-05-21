@@ -1,0 +1,64 @@
+CUDA MATRIX MULTIPLICATION RESULTS
+==================================================
+
+Size: 200x200
+----------------------------------------
+  Block 8x8: 107.284 ms
+  Block 16x8: 0.653 ms
+  Block 16x16: 0.564 ms
+  Block 32x8: 0.581 ms
+  Block 32x16: 0.558 ms
+  Block 32x32: 0.534 ms
+  BEST: 32x32 -> 0.534 ms
+
+Size: 400x400
+----------------------------------------
+  Block 8x8: 1.856 ms
+  Block 16x8: 1.583 ms
+  Block 16x16: 1.660 ms
+  Block 32x8: 1.630 ms
+  Block 32x16: 1.664 ms
+  Block 32x32: 1.675 ms
+  BEST: 16x8 -> 1.583 ms
+
+Size: 800x800
+----------------------------------------
+  Block 8x8: 11.189 ms
+  Block 16x8: 8.654 ms
+  Block 16x16: 8.023 ms
+  Block 32x8: 7.125 ms
+  Block 32x16: 7.028 ms
+  Block 32x32: 6.930 ms
+  BEST: 32x32 -> 6.930 ms
+
+Size: 1200x1200
+----------------------------------------
+  Block 8x8: 26.684 ms
+  Block 16x8: 21.271 ms
+  Block 16x16: 19.238 ms
+  Block 32x8: 18.231 ms
+  Block 32x16: 18.518 ms
+  Block 32x32: 17.879 ms
+  BEST: 32x32 -> 17.879 ms
+
+Size: 1600x1600
+----------------------------------------
+  Block 8x8: 63.772 ms
+  Block 16x8: 53.514 ms
+  Block 16x16: 52.349 ms
+  Block 32x8: 43.503 ms
+  Block 32x16: 43.589 ms
+  Block 32x32: 41.018 ms
+  BEST: 32x32 -> 41.018 ms
+
+Size: 2000x2000
+----------------------------------------
+  Block 8x8: 78.326 ms
+  Block 16x8: 60.942 ms
+  Block 16x16: 56.037 ms
+  Block 32x8: 54.407 ms
+  Block 32x16: 54.630 ms
+  Block 32x32: 46.883 ms
+  BEST: 32x32 -> 46.883 ms
+
+==================================================
