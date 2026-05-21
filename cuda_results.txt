@@ -3,7 +3,7 @@ CUDA MATRIX MULTIPLICATION RESULTS
 
 Size: 200x200
 ----------------------------------------
-  Block 8x8: 107.284 ms
+  Block 8x8: 0.511 ms
   Block 16x8: 0.653 ms
   Block 16x16: 0.564 ms
   Block 32x8: 0.581 ms
